@@ -1,0 +1,11 @@
+# Embedded web-server pid file
+/.web-server-pid
+
+.idea
+/.idea
+.env
+/.env
+
+###> symfony/phpunit-bridge ###
+/src.phpunit.result.cache
+###< symfony/phpunit-bridge ###
