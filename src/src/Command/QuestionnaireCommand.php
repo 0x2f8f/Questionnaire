@@ -130,7 +130,7 @@ class QuestionnaireCommand extends Command
         $this->printUserResult($currentAnswers);
 
         $answer = $this->io->ask(
-            'Would you like to take the questionnaire again? [y/n] (default: n)',
+            'Would you like to take the questionnaire again? [y/n]',
             'n',
             function (?string $input) {
                 Assert::string($input, 'Answer is invalid');
