@@ -10,4 +10,5 @@
 
 ## Run Questionare
 1. `make php` 
-2. `cd src && php bin/console app:questionnaire`
+2. `cd src` 
+3. `php bin/console app:questionnaire`
